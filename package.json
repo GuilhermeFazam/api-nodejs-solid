@@ -1,0 +1,25 @@
+{
+    "name": "restapisolid",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules src/server.ts"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemailer": "^6.7.1",
+        "ts-node-dev": "^1.1.8",
+        "typescript": "^4.5.2",
+        "uuidv4": "^6.2.12"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.13",
+        "@types/nodemailer": "^6.4.4",
+        "@typescript-eslint/eslint-plugin": "^5.4.0",
+        "@typescript-eslint/parser": "^5.4.0",
+        "eslint": "^8.3.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.25.3"
+    }
+}
